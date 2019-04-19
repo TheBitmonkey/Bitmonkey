@@ -6,6 +6,9 @@ Bitmonkey
 [![Gitter](https://img.shields.io/gitter/room/violentmonkey/violentmonkey.svg)](https://gitter.im/violentmonkey/violentmonkey)
 [![TravisCI](https://travis-ci.org/violentmonkey/violentmonkey.svg?branch=master)](https://travis-ci.org/violentmonkey/violentmonkey)
 
+
+![alt text](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey.svg)
+
 Bitmonkey provides userscripts support for browsers. 
 It works on browsers with [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) support.
 
