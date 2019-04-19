@@ -1,4 +1,4 @@
-Violentmonkey
+Bitmonkey
 =============
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag.svg)](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
@@ -6,15 +6,11 @@ Violentmonkey
 [![Gitter](https://img.shields.io/gitter/room/violentmonkey/violentmonkey.svg)](https://gitter.im/violentmonkey/violentmonkey)
 [![TravisCI](https://travis-ci.org/violentmonkey/violentmonkey.svg?branch=master)](https://travis-ci.org/violentmonkey/violentmonkey)
 
-Violentmonkey provides userscripts support for browsers.
+Bitmonkey provides userscripts support for browsers. 
 It works on browsers with [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) support.
 
-More details can be found [here](https://violentmonkey.github.io/).
+More details can be found [here](https://bitmonkey.xyz/).
 
-Related projects
----
-- [Violentmonkey for Opera Presto](https://github.com/violentmonkey/violentmonkey-oex)
-- [Violentmonkey for Maxthon](https://github.com/violentmonkey/violentmonkey-mx)
 
 Development
 ---
@@ -33,3 +29,8 @@ Build
 ``` sh
 $ yarn build
 ```
+
+
+Forked from
+---
+[Violentmonkey] (violentmonkey.github.io)
