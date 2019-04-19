@@ -1,15 +1,38 @@
 Bitmonkey
 =============
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag.svg)](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
-[![Firefox Add-ons](https://img.shields.io/amo/v/violentmonkey.svg)](https://addons.mozilla.org/firefox/addon/violentmonkey)
-[![Gitter](https://img.shields.io/gitter/room/violentmonkey/violentmonkey.svg)](https://gitter.im/violentmonkey/violentmonkey)
-[![TravisCI](https://travis-ci.org/violentmonkey/violentmonkey.svg?branch=master)](https://travis-ci.org/violentmonkey/violentmonkey)
-
 
 ![Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey.svg?sanitize=true)
 
-Bitmonkey provides userscripts support for browsers. 
+Bitmonkey provides Bitcoin hosted userscripts support for browsers.. Allowing for Bitcoin developers to easily add support for their Bitcoin projects. 
+
+
+Bitmonkey only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema.
+
+Allows developers to monitize their Userscript creations
+If the script is safe it will be so always because that transaction cannot be changed.
+
+
+Tentative Roadmap
+---
+
+Add support for b:// c:// and d:// native support.
+
+Add some nice userscripts which are already available.
+
+Integrate metalens support.
+
+Tipper Bot integration into Social media Platforms.
+
+Etcher Support Buttons within Social Media platforms.
+
+
+Review system hosted on Bitcoin, also flagging of malicious code.
+
+
+Compatability
+---
+
 It works on browsers with [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) support.
 
 More details can be found [here](https://bitmonkey.xyz/).
