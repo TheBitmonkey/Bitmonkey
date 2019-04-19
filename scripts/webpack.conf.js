@@ -30,13 +30,13 @@ const pages = {
   'background/index': {
     entry: './src/background',
     html: {
-      title: 'Violentmonkey',
+      title: 'Bitmonkey',
     },
   },
   'options/index': {
     entry: './src/options',
     html: {
-      title: 'Violentmonkey',
+      title: 'Bitmonkey',
       js: [
         '/public/lib/zip.js/zip.js',
       ],
@@ -45,13 +45,13 @@ const pages = {
   'confirm/index': {
     entry: './src/confirm',
     html: {
-      title: 'Violentmonkey',
+      title: 'Bitmonkey',
     },
   },
   'popup/index': {
     entry: './src/popup',
     html: {
-      title: 'Violentmonkey',
+      title: 'Bitmonkey',
     },
   },
   injected: {
