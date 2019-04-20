@@ -36,8 +36,11 @@ Userscripts will be uploaded into the Bitcoin blockchain within the Addon. When 
 Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers. 
 
 Example Tags: 
+
 Twitter Tipper --> Dependency TippermainApp
-Twitter Tipper Theme Script --> Dependency Twitter Tipper 
+
+Twitter Tipper Theme Script --> Dependency Twitter Tipper
+
 
 Profiles and Syncing:
 -----
