@@ -2,7 +2,7 @@ Bitmonkey
 =============
 
 
-![Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey.svg?sanitize=true)
+![Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
 
 Bitmonkey provides Bitcoin hosted userscripts support for browsers.. Allowing for Bitcoin developers to easily add support for their Bitcoin projects. 
 
