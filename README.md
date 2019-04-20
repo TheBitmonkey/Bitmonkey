@@ -9,6 +9,7 @@ Bitmonkey aims to provide a gateway between the Metanet & the Internet by adapti
 
 Bitmonkey will allow Metanetters to redesign the current internet in our image. From added functionality and interoperability too themeing and modding of sites. The Bitmonkey model should allow for decentralised development and coordination in creating this vision.
 
+
 The Technology
 -----
 
@@ -19,7 +20,10 @@ More details can be found [here](https://bitmonkey.xyz/).
 Bitmonkey only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monitize their Userscript creations if they so choose. 
 
 
-If the script is safe it will be so always because that transaction cannot be changed.
+Uses & Benefits
+-----
+
+Immutably secure - If the script is safe it will be so always because that transaction cannot be changed.
 
 
 Tentative Roadmap
@@ -37,9 +41,9 @@ Some scripts can have dependencies on other Userscripts and will need to be load
 
 Example Tags: 
 
-Twitter Tipper --> Dependency TippermainApp
+Twitter Tipper Buttons (Adds buttons for tipper within twitter) --> Dependency TippermainApp - General TipperApp functionality
 
-Twitter Tipper Theme Script --> Dependency Twitter Tipper
+Twitter Tipper Theme Script (A unique styling for the tipper button) --> Dependency Twitter Tipper Buttons
 
 
 Profiles and Syncing:
@@ -58,13 +62,14 @@ Add some nice userscripts which are already available.
 
 Integrate metalens support natively within Bitmonkey
 
-Ideas  
+Possible Ideas for Userscripts
+-----
 Tipper Bot integration into Social media Platforms.
 
-Etched Support Buttons within Social Media platforms.
+Etched Buttons within Social Media platforms for speed of use. Could also be tied into a chatbot to let the user know their post has been etched...forever.
 
 
-Review system hosted on Bitcoin, also flagging of malicious code.
+Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
 
 
 Development
