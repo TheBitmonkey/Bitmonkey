@@ -52,7 +52,25 @@ By natively storing the users profile on the blockchain (encrypted or not) users
 
 Bitmonkey will come by default with the Bitmonkey default profile switched on. Hopefully we will have an unwriter, moneybutton profiles enabled by default too. This will mean that users setup will be automatically updated to use the latest additions to those profiles and can get the benefits of updates without updating the main extension.
 
-Profiles can be created which higher level use cases in mind which can be monitized through the system.
+Profiles can be created which combine 'suites' of UserScripts that could cover various use cases
+
+Profiles can be monitized through the system.
+
+SHARED BOOKMARKS/APP STORE
+
+AUTOMATION SETUPS
+
+WORKFLOW - 
+
+DESIGN - 
+
+
+THEMES - TWITTER THEME OVERRIDES, FACEBOOK ETC. Stored on the blockchain and 
+
+App support:
+BITCOM ONLINE - 
+
+BOOKMARKS:
 
 B://, C:// & D:// Support
 -----
