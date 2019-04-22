@@ -68,7 +68,7 @@ function getVMConfig(text) {
   try {
     vm = JSON.parse(text);
   } catch (e) {
-    console.warn('Error parsing ViolentMonkey configuration.');
+    console.warn('Error parsing BitMonkey configuration.');
   }
   return vm || {};
 }

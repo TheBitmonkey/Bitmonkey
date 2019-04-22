@@ -135,7 +135,7 @@ extDescription:
   message: ブラウザでユーザースクリプトを利用できるようにします。
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: アルファベット順
@@ -165,7 +165,7 @@ installOptionTrack:
   message: このページを閉じるまでローカルファイルの変更を監視する
 labelAbout:
   description: Label shown on top of the about page.
-  message: Violentmonkey について
+  message: Bitmonkey について
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: 高度な設定
@@ -252,7 +252,7 @@ labelHomepageURL:
   message: 'ホームページのURL:'
 labelImportSettings:
   description: Label for option to import settings from zip file.
-  message: Violentmonkey の設定もインポートする
+  message: Bitmonkey の設定もインポートする
 labelInclude:
   description: Label of @include rules.
   message: 実行するページのURL (@include)
@@ -386,19 +386,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: 新しいスクリプトを作成
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: スクリプトは無効
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: スクリプトは有効
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: 更新を確認中…
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: スクリプトの取得中にエラーが発生しました!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: 更新情報の取得に失敗しました。
 msgErrorLoadingData:
   description: >-
@@ -493,7 +493,7 @@ searchUseRegex:
   message: 正規表現を使用する
 sideMenuAbout:
   description: 'Side menu: About'
-  message: Violentmonkey について
+  message: Bitmonkey について
 sideMenuInstalled:
   description: 'Side menu: Installed scripts'
   message: インストール済み
@@ -510,7 +510,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: 値 (JSONとしてシリアル化された)
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: ''
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

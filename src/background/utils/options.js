@@ -32,7 +32,7 @@ const defaults = {
   scriptTemplate: `\
 // ==UserScript==
 // @name New Script
-// @namespace Violentmonkey Scripts
+// @namespace Bitmonkey Scripts
 // @match {{url}}
 // @grant none
 // ==/UserScript==

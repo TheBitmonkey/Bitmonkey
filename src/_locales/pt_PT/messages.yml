@@ -134,7 +134,7 @@ extDescription:
   message: Oferece suporte a scripts de utilizador para navegadores.
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: ordem alfabética
@@ -164,7 +164,7 @@ installOptionTrack:
   message: Monitorizar o ficheiro local até a janela ser fechada
 labelAbout:
   description: Label shown on top of the about page.
-  message: Acerca do Violentmonkey
+  message: Acerca do Bitmonkey
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: Avançadas
@@ -387,19 +387,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: Criar um novo script
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: Scripts desativados
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: Scripts ativados
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: A procurar atualizações...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: Erro ao obter script!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: Falha ao obter informações de atualização.
 msgErrorLoadingData:
   description: >-
@@ -513,7 +513,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: Valor (serializado em JSON)
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: Visitar website
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

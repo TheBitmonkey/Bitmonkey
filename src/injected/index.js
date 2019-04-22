@@ -3,7 +3,7 @@ import initialize from './content';
 
 (function main() {
   // Avoid running repeatedly due to new `document.documentElement`
-  const VM_KEY = '__Violentmonkey';
+  const VM_KEY = '__Bitmonkey';
   if (window[VM_KEY]) return;
   window[VM_KEY] = 1;
 

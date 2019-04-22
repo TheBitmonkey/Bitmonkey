@@ -132,7 +132,7 @@ extDescription:
   message: 유저스크립트를 실행합니다.
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: 가나다 순서
@@ -162,7 +162,7 @@ installOptionTrack:
   message: 이 창이 닫히기 전에 로컬 파일 추적
 labelAbout:
   description: Label shown on top of the about page.
-  message: Violentmonkey에 대해서
+  message: Bitmonkey에 대해서
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: ''
@@ -383,19 +383,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: ''
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: 스크립트들 비활성화됨
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: 스크립트들 활성화됨
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: 업데이트 확인중...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: 스크립트를 받아오는 중 오류가 발생했습니다!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: 업데이트 정보를 받아오는 데 실패했습니다.
 msgErrorLoadingData:
   description: >-
@@ -507,7 +507,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: ''
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: ''
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

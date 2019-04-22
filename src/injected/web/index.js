@@ -187,7 +187,7 @@ function wrapGM(script, code, cache, unsafeWindow) {
     uuid: script.props.uuid,
     scriptMetaStr: metaStr,
     scriptWillUpdate: !!script.config.shouldUpdate,
-    scriptHandler: 'Violentmonkey',
+    scriptHandler: 'Bitmonkey',
     version: bridge.version,
     injectInto: bridge.mode,
     script: {
@@ -366,7 +366,7 @@ function wrapGM(script, code, cache, unsafeWindow) {
     return store.values[script.props.id];
   }
   function propertyToString() {
-    return '[Violentmonkey property]';
+    return '[Bitmonkey property]';
   }
   function addProperty(name, prop, obj) {
     if ('value' in prop) prop.writable = false;
@@ -492,7 +492,7 @@ function getWrapper(unsafeWindow) {
 }
 
 function log(level, tags, ...args) {
-  const tagList = ['Violentmonkey'];
+  const tagList = ['Bitmonkey'];
   if (tags) tagList.push(...tags);
   const prefix = tagList.map(tag => `[${tag}]`).join('');
   console[level](prefix, ...args);
@@ -551,7 +551,7 @@ ${' '.repeat(lineInfo.col - 1)}^`;
 }
 
 function exposeVM() {
-  const Violentmonkey = {};
+  const Bitmonkey = {};
   const checking = {};
   let key = 0;
   bridge.onScriptChecked = ({ callback, result }) => {
@@ -561,12 +561,12 @@ function exposeVM() {
       delete checking[callback];
     }
   };
-  Object.defineProperty(Violentmonkey, 'getVersion', {
+  Object.defineProperty(Bitmonkey, 'getVersion', {
     value: () => Promise.resolve({
       version: bridge.version,
     }),
   });
-  Object.defineProperty(Violentmonkey, 'isInstalled', {
+  Object.defineProperty(Bitmonkey, 'isInstalled', {
     value: (name, namespace) => new Promise(resolve => {
       key += 1;
       const callback = key;
@@ -581,7 +581,7 @@ function exposeVM() {
       });
     }),
   });
-  Object.defineProperty(window.external, 'Violentmonkey', {
-    value: Violentmonkey,
+  Object.defineProperty(window.external, 'Bitmonkey', {
+    value: Bitmonkey,
   });
 }

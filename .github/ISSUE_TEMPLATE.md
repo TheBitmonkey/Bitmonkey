@@ -18,5 +18,5 @@ Note that issues without a reproduction may be closed immediately!
 ### Environment
 - Browser:
 - Browser version:
-- Violentmonkey version:
+- Bitmonkey version:
 - OS:

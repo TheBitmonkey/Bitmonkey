@@ -135,11 +135,11 @@ editValueSave:
 extDescription:
   description: Description for this extension.
   message: >-
-    Violentmonkey позволяет пользователю автоматически вводить скрипты в
+    Bitmonkey позволяет пользователю автоматически вводить скрипты в
     страницы чтобы изменять их вид или поведение.
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: алфавитному порядку
@@ -171,7 +171,7 @@ installOptionTrack:
   message: Отслеживание локального файла до закрытия этого окна
 labelAbout:
   description: Label shown on top of the about page.
-  message: О расширении Violentmonkey
+  message: О расширении Bitmonkey
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: Дополнительные настройки
@@ -392,19 +392,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: Создать новый скрипт
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: Скрипты отключены
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: Скрипты включены
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: Проверка наличия обновлений...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: Ошибка при загрузке скрипта!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: Не удалось получить информацию об обновлении.
 msgErrorLoadingData:
   description: >-
@@ -516,7 +516,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: Значение (сериализованное как JSON)
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: Посетить сайт
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

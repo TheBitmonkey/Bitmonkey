@@ -1,6 +1,7 @@
 import {
   checkAuthUrl, initialize, sync, getStates, authorize, revoke,
 } from './base';
+import './bitcoin';
 import './dropbox';
 import './onedrive';
 import './googledrive';

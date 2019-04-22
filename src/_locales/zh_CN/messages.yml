@@ -383,19 +383,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: 创建新脚本
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: 脚本已禁用
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: 脚本已启用
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: 正在检查更新...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: 获取脚本发生错误！
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: 获取更新信息失败。
 msgErrorLoadingData:
   description: >-
@@ -507,7 +507,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: 键值（作为JSON序列化）
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: 访问网站
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

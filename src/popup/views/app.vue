@@ -160,7 +160,7 @@ export default {
     },
     onVisitWebsite() {
       browser.tabs.create({
-        url: 'https://violentmonkey.github.io/',
+        url: 'https://bitmonkey.xyz',
       });
       window.close();
     },

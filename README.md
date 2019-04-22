@@ -1,4 +1,4 @@
-Bitmonkey 
+Bitmonkey
 =============
 
 
@@ -17,7 +17,7 @@ The underlying system will work on browsers with [WebExtensions](https://develop
 
 More details can be found [here](https://bitmonkey.xyz/).
 
-Bitmonkey only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monitize their Userscript creations if they so choose. 
+Bitmonkey only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monitize their Userscript creations if they so choose.
 
 
 Uses & Benefits
@@ -35,11 +35,11 @@ Bitmonkeys wallet and payments system will operate through the moneybutton syste
 
 UserScripts
 -----
-Userscripts will be uploaded into the Bitcoin blockchain within the Addon. When uploading a Userscript it will have associated metadata and a strict naming convention. Userscripts can be organised with these 'tags' so that users can easily browse through the collection of scripts which they may like to add. Language Tags are nessesary. 
+Userscripts will be uploaded into the Bitcoin blockchain within the Addon. When uploading a Userscript it will have associated metadata and a strict naming convention. Userscripts can be organised with these 'tags' so that users can easily browse through the collection of scripts which they may like to add. Language Tags are nessesary.
 
-Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers. 
+Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers.
 
-Example Tags: 
+Example Tags:
 
 Twitter Tipper Buttons (Adds buttons for tipper within twitter) --> Dependency TippermainApp - General TipperApp functionality
 
@@ -89,8 +89,3 @@ Build
 ``` sh
 $ yarn build
 ```
-
-
-Forked from
----
-[Violentmonkey](https://violentmonkey.github.io)

@@ -134,7 +134,7 @@ extDescription:
   message: Hỗ trợ chạy userscript trên trình duyệt.
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: thứ tự bảng chứ cái
@@ -164,7 +164,7 @@ installOptionTrack:
   message: Track local file before this window is closed
 labelAbout:
   description: Label shown on top of the about page.
-  message: Thông tin Violentmonkey
+  message: Thông tin Bitmonkey
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: Nâng cao
@@ -385,19 +385,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: Tạo script mới
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: Đã vô hiệu hoá script
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: Đã kích hoạt script
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: Đang kiểm tra cập nhật...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: Có lỗi khi tìm phiên bản mới!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: Tìm kiếm thông tin cập nhật thất bại.
 msgErrorLoadingData:
   description: >-
@@ -509,7 +509,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: Giá trị (đã đưa về dạng JSON)
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: Truy cập trang web
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

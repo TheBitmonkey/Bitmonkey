@@ -1,6 +1,6 @@
 {
-  "name": "violentmonkey",
-  "version": "2.10.3",
+  "name": "bitmonkey",
+  "version": "0.0.1-alpha",
   "scripts": {
     "dev": "gulp dev",
     "prebuild": "yarn lint && gulp clean",
@@ -15,7 +15,7 @@
     "test": "cross-env BABEL_ENV=test tape -r ./test/mock/register 'test/**/*.test.js'",
     "transform": "node scripts/transform-lock"
   },
-  "description": "Violentmonkey",
+  "description": "Bitmonkey",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
@@ -70,15 +70,15 @@
     "webpack-bundle-analyzer": "^3.0.4",
     "wrapper-webpack-plugin": "2.1.0"
   },
-  "author": "Gerald <i@gerald.top>",
+  "author": "Bitmonkey <i@bitmonkey.xyz>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/violentmonkey/violentmonkey.git"
+    "url": "https://github.com/TheBitmonkey/bitmonkey.git"
   },
   "bugs": {
-    "url": "https://github.com/violentmonkey/violentmonkey/issues"
+    "url": "https://github.com/TheBitmonkey/Bitmonkey/issues"
   },
-  "homepage": "https://github.com/violentmonkey/violentmonkey",
+  "homepage": "https://github.com/TheBitmonkey/Bitmonkey",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.3.4",

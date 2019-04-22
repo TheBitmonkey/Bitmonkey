@@ -134,7 +134,7 @@ extDescription:
   message: Omogućava korištenje korisničkih skripti u web pregledniku.
 extName:
   description: Name of this extension.
-  message: Violentmonkey
+  message: Bitmonkey
 filterAlphabeticalOrder:
   description: Label for option to sort scripts in alphabetical order.
   message: ''
@@ -164,7 +164,7 @@ installOptionTrack:
   message: Track lokalni fajl prije no što se ovaj prozor zatvori
 labelAbout:
   description: Label shown on top of the about page.
-  message: O Violentmonkey
+  message: O Bitmonkey
 labelAdvanced:
   description: Label for button to show advanced settings.
   message: ''
@@ -385,19 +385,19 @@ menuNewScript:
   description: Menu item to create a new script.
   message: ''
 menuScriptDisabled:
-  description: 'Menu item showing the status of Violentmonkey, when disabled.'
+  description: 'Menu item showing the status of Bitmonkey, when disabled.'
   message: Skripta je onemogućena
 menuScriptEnabled:
-  description: 'Menu item showing the status of Violentmonkey, when enabled.'
+  description: 'Menu item showing the status of Bitmonkey, when enabled.'
   message: Skripte omogućene
 msgCheckingForUpdate:
   description: Message shown when a script is being checked for updates by version numbers.
   message: Tražim obnavljanja...
 msgErrorFetchingScript:
-  description: Message shown when Violentmonkey fails fetching a new version of the script.
+  description: Message shown when Bitmonkey fails fetching a new version of the script.
   message: Greška pri dohvaćanju skripte!
 msgErrorFetchingUpdateInfo:
-  description: Message shown when Violentmonkey fails fetching version data of the script.
+  description: Message shown when Bitmonkey fails fetching version data of the script.
   message: Neuspjelo dohvaćanje informacija o obnovama.
 msgErrorLoadingData:
   description: >-
@@ -509,7 +509,7 @@ valueLabelValue:
   description: Label for value of a script value.
   message: ''
 visitWebsite:
-  description: Label for link to open Violentmonkey website.
+  description: Label for link to open Bitmonkey website.
   message: ''
 warnScriptLongLines:
   description: Warning message shown when script has lines that are too long to be edited.

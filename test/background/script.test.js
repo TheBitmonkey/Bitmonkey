@@ -27,7 +27,7 @@ test('parseMeta', t => {
   t.deepEqual(parseMeta(`\
 // ==UserScript==
 // @name New Script
-// @namespace Violentmonkey Scripts
+// @namespace Bitmonkey Scripts
 // @description This is a script
 // @version 1.0
 // @match *://*/*
@@ -35,7 +35,7 @@ test('parseMeta', t => {
 // ==/UserScript==
 `), Object.assign({}, baseMeta, {
     name: 'New Script',
-    namespace: 'Violentmonkey Scripts',
+    namespace: 'Bitmonkey Scripts',
     description: 'This is a script',
     version: '1.0',
     match: ['*://*/*'],
@@ -44,13 +44,13 @@ test('parseMeta', t => {
   t.deepEqual(parseMeta(`\
 // ==UserScript==
 // @name New Script
-// @namespace Violentmonkey Scripts
+// @namespace Bitmonkey Scripts
 // @match *://*/*
 // @noframes
 // ==/UserScript==
 `), Object.assign({}, baseMeta, {
     name: 'New Script',
-    namespace: 'Violentmonkey Scripts',
+    namespace: 'Bitmonkey Scripts',
     match: ['*://*/*'],
     noframes: true,
   }));
