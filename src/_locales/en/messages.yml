@@ -1,9 +1,9 @@
 anchorAuthor:
   description: Author shown on about tab.
-  message: '<a href=mailto:i@gerald.top>Gerald</a>'
+  message: '<a href=mailto:i@bitmonkey.xyz>Bitmonkey</a>'
 anchorTranslator:
   description: Translator shown on about tab.
-  message: '<a href=mailto:i@gerald.top>Gerald</a>'
+  message: '<a href=mailto:i@bitmonkey.xyz>Bitmmonkey</a>'
 buttonAllNone:
   description: Button to select all scripts or none.
   message: All/None

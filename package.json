@@ -82,9 +82,10 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.3.4",
+    "bsv": "^0.26.4",
     "codemirror": "^5.44.0",
     "core-js": "^2.6.5",
-    "datapay": "^0.0.12",
+    "datapay": "^0.0.13",
     "tldjs": "^2.3.1",
     "vue": "^2.6.7",
     "vueleton": "^0.7.1"

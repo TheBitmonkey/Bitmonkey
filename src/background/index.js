@@ -311,3 +311,5 @@ function setIcon(isApplied) {
   });
 }
 setIcon(getOption('isApplied'));
+
+const datapay = require('datapay');
