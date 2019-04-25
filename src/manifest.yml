@@ -1,8 +1,8 @@
-name: __MSG_extName__
-version: __VERSION__
+name: Bitmonkey
+version: 0.0.1-alpha
 manifest_version: 2
 description: __MSG_extDescription__
-author: Gerald
+author: Bitmonkey
 homepage_url: 'https://bitmonkey.xyz'
 icons:
   '16': public/images/icon16.png

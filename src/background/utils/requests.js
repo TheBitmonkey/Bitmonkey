@@ -199,6 +199,49 @@ function decodeBody(obj) {
         }
       }
     }
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+  //  if(!changeInfo.url) return;
+
+  // Redirect for Windows (file URLs)
+  if(details.url.startsWith("file:///") && /[A-Fa-f0-9]{64}/.test(details.url.substring(12))) {
+    const hash = changeInfo.url.substring(12);
+    if(details.url.startsWith("file:///B://")) chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
+    if(details.url.startsWith("file:///C://")) chrome.tabs.update(tabId, {"url": `https://data.bitdb.network/1KuUr2pSJDao97XM8Jsq8zwLS6W1WtFfLg/c/${hash}`});
+    return;
+  }
+
+  // Redirect for other OS's (when a b:// or c:// url is searched in a website, hopefully the main search engine)
+  if(!navigator.platform.includes("Win")) {
+    const url = new URL(details.url);
+    if(url.pathname === "/search" || url.pathname === "/") {
+      var search = url.searchParams.get("q");
+      if(search) {
+        var search = search.toLowerCase();
+        const hash = search.substring(4);
+        if(/[A-Fa-f0-9]{64}/.test(hash)) {
+          if(search.startsWith("b://")) chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
+          if(search.startsWith("c://")) chrome.tabs.update(tabId, {"url": `https://data.bitdb.network/1KuUr2pSJDao97XM8Jsq8zwLS6W1WtFfLg/c/${hash}`});
+        }
+      }
+    }
+  }
+
+var url = new URL(details.url);
+if(url.pathname === "/search" || url.pathname === "/") {
+  var search = url.searchParams.get("q");
+  if(search) {
+    var search = search.toLowerCase();
+    const hash = search.substring(4);
+    var isMetanet = url.hostname.split(/\./).slice(-2).join('.');
+    if(isMetanet) alert(isMetanet);  // chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
+      }
+}
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////
     return { requestHeaders: newHeaders };
   }
   const filter = {
@@ -239,7 +282,7 @@ function decodeBody(obj) {
       responseHeaders: details.responseHeaders
     };
   }, {
-    urls: ['https://twitter.com/*'],
+    urls: ['<all_urls>'],
     types: ['main_frame']
   }, ['blocking', 'responseHeaders']);
 
