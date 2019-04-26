@@ -88,6 +88,8 @@
         </div>
       </div>
     </div>
+
+    <div id="cashport-container"></div>
     <footer>
       <span @click="onVisitWebsite" v-text="i18n('visitWebsite')" />
     </footer>

@@ -236,7 +236,7 @@ if(url.pathname === "/search" || url.pathname === "/") {
     var search = search.toLowerCase();
     const hash = search.substring(4);
     var isMetanet = url.hostname.split(/\./).slice(-2).join('.');
-    if(isMetanet) alert(isMetanet);  // chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
+  //  if(isMetanet) alert(isMetanet);  // chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
       }
 }
 
@@ -287,6 +287,19 @@ if(url.pathname === "/search" || url.pathname === "/") {
   }, ['blocking', 'responseHeaders']);
 
 }
+
+browser.webRequest.onBeforeRequest.addListener(
+  function(details) {
+    var redirect;
+    if (details.url.match(/\.metanet/)) {
+      redirect = chrome.extension.getURL("hello.html");
+      console.log("Redirecting:", details.url, "->", redirect);
+      return {redirectUrl: redirect};
+      }
+    console.log("Requesting:",details.url);
+  }, {urls: [
+    "<all_urls>"
+  ]}, ["blocking"]);
 
 // tasks are not necessary now, turned off
 // Stop redirects

@@ -6,6 +6,7 @@ import '#/common/ui/style';
 import App from './views/app';
 import { store } from './utils';
 
+
 tld.initTLD();
 
 Vue.prototype.i18n = i18n;

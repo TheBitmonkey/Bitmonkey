@@ -16,6 +16,7 @@
             v-text="i18n('buttonNew')"
             @click.prevent="onEditScript('_new')"
           />
+          <a class="dropdown-menu-item" v-text="i18n('installFrom', 'Metanet')" href="scripts.bitmonkey.xyz" target="_blank" rel="noopener noreferrer"></a>
           <a class="dropdown-menu-item" v-text="i18n('installFrom', 'OpenUserJS')" href="https://openuserjs.org/" target="_blank" rel="noopener noreferrer"></a>
           <a class="dropdown-menu-item" v-text="i18n('installFrom', 'GreasyFork')" href="https://greasyfork.org/scripts" target="_blank" rel="noopener noreferrer"></a>
           <div
