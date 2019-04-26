@@ -30,13 +30,13 @@ const pages = {
   'background/index': {
     entry: './src/background',
     html: {
-      title: 'Bitmonkey',
+      title: 'Bitmonkey 0.0.1-alpha',
     },
   },
   'options/index': {
     entry: './src/options',
     html: {
-      title: 'Bitmonkey',
+      title: 'Bitmonkey 0.0.1-alpha',
       js: [
         '/public/lib/zip.js/zip.js',
       ],
@@ -45,13 +45,13 @@ const pages = {
   'confirm/index': {
     entry: './src/confirm',
     html: {
-      title: 'Bitmonkey',
+      title: 'Bitmonkey 0.0.1-alpha',
     },
   },
   'popup/index': {
     entry: './src/popup',
     html: {
-      title: 'Bitmonkey',
+      title: 'Bitmonkey 0.0.1-alpha',
     },
   },
   injected: {
