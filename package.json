@@ -48,6 +48,7 @@
     "gulp-filter": "^5.0.1",
     "gulp-plumber": "^1.1.0",
     "gulp-uglify": "^3.0.0",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.0.0-beta.5",
     "js-yaml": "^3.12.2",
     "mini-css-extract-plugin": "^0.5.0",
@@ -82,11 +83,9 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "bsv": "^0.26.4",
-    "cashport-sdk": "^0.0.14-alpha",
     "codemirror": "^5.44.0",
     "core-js": "^2.6.5",
     "datapay": "^0.0.13",
-    "html-loader": "^0.5.5",
     "tldjs": "^2.3.1",
     "vue": "^2.6.7",
     "vueleton": "^0.7.1"
