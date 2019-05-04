@@ -23,6 +23,7 @@ Install our test scripts by clicking the links below and confirm the installatio
 
 [Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
 
+*Warning:* This will send money to Bitmonkey not to the profile visible.
 
 ### Step 3:
 
