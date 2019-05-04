@@ -219,7 +219,6 @@ https://github.com/rohenaz/MAP
 https://medium.com/@roger.taylor/thoughts-on-identity-2e262e8771d5
 
 
-
 Development
 ---
 Make sure [Node.js](https://nodejs.org/) greater than v8.0 is installed.
