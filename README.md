@@ -16,8 +16,18 @@ Change the way you think about UI
 Web Interfaces for Systems are ubiquitous today. By cleverly utilizing the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
 
 
+
 The Bitmonkey Repository of Userscripts
 ---
+#### To be developed...
+
+We need to integrate within the current Userscript versioning and upgrading system used by Userscript providers. We need to fully understand that first before expanding upon it.
+
+We intend to develop Planaria nodes to manage the display and filtering of the userscripts.
+
+### Bitcoin Userscript Versioning System
+
+Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
 
 Script release files are c:// files
 
@@ -26,27 +36,75 @@ https://c.bitdb.network/
 https://docs.planaria.network/#/api?id=_5-file-serve-api
 
 
+Profiles and Syncing:
+-----
+By natively storing the users profile on the blockchain (encrypted or not) users can sync there Bitmonkey setup natively across multiple browsers and computers. Users can share profile setups and even switch between different setups for different use cases. ie - A preferred Dev Environment as opposed to browsing setup/ Gaming setup.
 
-Business Plan
+Bitmonkey will come by default with the Bitmonkey default profile switched on. This will mean that users setup will be automatically updated to use the latest additions to those profiles and can get the benefits of updates without updating the main extension.
+
+Profiles can be created which combine 'suites' of UserScripts that could cover various use cases
+
+Profiles can be monetized through the system.
+
+
+Bitmonkey Metanet Integration
+-----
+
+
+### Installed Libraries
+
+> Some commonly used Bitcoin libraries come pre Installed with Bitmonkey. Scripts can reference the locally stored version of the following libraries.
+
+Datapay - https://github.com/unwriter/datapay
+Moneybutton
+Databutton
+Metalens
+
+### Added Content Policy Security to Headers
+
+Bitmonkey adds moneybutton.com and metalens.allaboard.com to the Content Policy of all headers sent to the browser for all websites. This allows for Integration of the Moneybutton and Metalens iframes on all websites once the Extension is installed.
+
+https://www.w3.org/TR/CSP/#framework-directive-source-list
+
+Chrome:
+https://developer.chrome.com/extensions/contentSecurityPolicy
+
+
+### Redirects of b:// c:// links
+
+Currently all c:// links redirect to https://bico.media/ in the future Users will be able to choose which data provider they wish from a pre approved list.
+
+https://github.com/bico-media
+
+B://
+https://github.com/unwriter/B
+
+https://b.bitdb.network/
+
+Future Integrations with bit:// links and d://
+
+
+https://github.com/bitcoineler/D
+
+
+On-Boarding
 ---
 
-#### On-Boarding
-
 > ##### Stage 1: Metaneters
-> The easiest people to get on-board will be current users of the Metanet. These people consist of mainly developers. It is hoped that the early Userscripts will help them to integrate their own products into the Bitmonkey system. This will help with Bug testing and the future direction of the project.
+> The easiest people to get on-board will be current users of the Metanet. These people consist of mainly developers. It is hoped that the early Userscripts will help them to integrate their own products into the Bitmonkey system. This will help with Bug testing and the future direction of the project. Each Developer that Integrates their service on top of Bitmonkey will add their own version of On-boarding and use cases.
 
 > ##### Stage 2: The Deplorables
-> The second market that needs to be focused on is the deplatforming which is happening throughout the current Internet. This is a potentially large percentage of the population of many countries who are being forcibly removed from the Internet. Content creators on various platforms are looking for solutions to generate Income. These content creators have huge audiences.
-> Also by Integrating the Bitmonkey Tipperbot into various Social media platforms amounst other product developed by different developers we should be able to make the onboarding process smooth.
+> The second market that needs to be focused on is the deplatforming which is happening throughout the current Internet. This is a potentially large percentage of the population of many countries who are being forcibly removed from the Internet. Content creators on various platforms are looking for solutions to generate Income. These content creators have huge audiences. Mostly the Internet is banning 'right-wing' people who include libertarians and free market proponents. These people will be invaluable to push the use cases fro Bitcoin.
+> Also by Integrating the Bitmonkey Tipperbot into various Social media platforms among other product developed by different developers we should be able to make the onboarding process smooth.
 
 > ##### Stage 3: Developers
->  There are already thousands of developers that have created Userscripts.
+>  There are already thousands of developers that have created Userscripts or are at least familiar with the concept. By giving them the tools to integrate
 
 > ##### Stage 4: Enterprise Clients
-> Creating userscripts/profiles to help Business specific integration of
+> Creating userscripts/profiles to help Business specific integration of their current software and metanet software. This can be handled in a secure fashion due to the protections and security which is inbuilt within the Bitcoin protocol.
 
 #### How do we make money?
-We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the bitmonkey address to their scripts.
+We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the Bitmonkey address to their scripts. Scripts that do that will gain preferential treatment in our own online cataloge of 'Apps'
 
 We will take a % of the price paid for downloading paid for scripts.
 
@@ -55,7 +113,7 @@ We will take a % of the price paid for downloading paid for scripts.
 Monkey see, monkey do.
 
 
-Bitmonkey a Dev Environment
+Bitmonkey is a Dev Environment
 ---
 Developers can develop their code directly within the Bitmonkey Extension. When finished they will be able to upload their code to the blockchain from within the App. Developers will be able to upload encrypted files if they prefer.
 
@@ -107,53 +165,6 @@ Github - Tipping / Messaging System.
 Tipper Bot integration into Social media Platforms.
 
 
-Bitmonkey Metanet Integration
------
-
-### Bitcoin Userscript Versioning System
-
-Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
-
-### Installed Libraries
-
-> Some commonly used Bitcoin libraries come pre Installed with Bitmonkey. Scripts can reference the locally stored version of the following libraries.
-
-Datapay - https://github.com/unwriter/datapay
-Moneybutton
-Databutton
-Metalens
-
-### Added Content Policy Security to Headers
-
-Bitmonkey adds moneybutton.com and metalens.allaboard.com to the Content Policy of all headers sent to the browser for all websites. This allows for Integration of the Moneybutton and Metalens iframes on all websites once the Extension is installed.
-
-https://www.w3.org/TR/CSP/#framework-directive-source-list
-
-Chrome:
-https://developer.chrome.com/extensions/contentSecurityPolicy
-
-
-### Redirects of b:// c:// links
-
-Bico Media
-
-https://bico.media/
-
-https://github.com/bico-media
-
-B://
-https://github.com/unwriter/B
-
-https://b.bitdb.network/
-
-Future Integrations with bit:// links and d://
-
-
-https://github.com/bitcoineler/D
-
-
-
-
 ### The Browser Extension
 
 The underlying system will work on browsers with [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) support.
@@ -162,33 +173,6 @@ More details can be found [here](https://bitmonkey.xyz/).
 
 Bitmonkey (will) only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monetize their Userscript creations if they so choose.
 
-
-
-### Userscript Information
-
-
-
-Header Info
-
-text/x-userscript-meta
-
-text/x-userscript-update
-
-Openuserjs
-https://github.com/OpenUserJS/OpenUserJS.org/wiki/Frequently-Asked-Questions
-
-Metadata Block
-https://sourceforge.net/p/greasemonkey/wiki/Metadata_Block/
-
-https://greasyfork.org/en
-
-https://tampermonkey.net/documentation.php
-
-
-https://wiki.greasespot.net/Metadata_Block
-
-
-https://tampermonkey.net/faq.php
 
 
 Login, Profiles and Identity
@@ -212,14 +196,13 @@ https://github.com/rohenaz/MAP
 https://medium.com/@roger.taylor/thoughts-on-identity-2e262e8771d5
 
 
-
 UserScripts
 -----
 Userscripts will be uploaded into the Bitcoin blockchain within the Extension directly. When uploading a Userscript it will have associated metadata and a strict naming convention.
 
 A special Planaria node will be created to help organize the Userscripts with these 'tags' so that users can easily browse through the collection of scripts which they may like to add. Language Tags are necessary.
 
-Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers.
+Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers. A Whitelist system will be integrated at the start during Stage 1, which may be changed to a Blacklist structure when the Project matures.
 
 Example Tags:
 
@@ -228,26 +211,9 @@ Twitter Tipper Buttons (Adds buttons for tipper within twitter) --> Dependency T
 Twitter Tipper Theme Script (A unique styling for the tipper button) --> Dependency Twitter Tipper Buttons
 
 
-Profiles and Syncing:
------
-By natively storing the users profile on the blockchain (encrypted or not) users can sync there Bitmonkey setup natively across multiple browsers and computers. Users can share profile setups and even switch between different setups for different use cases. ie - A preferred Dev Environment as opposed to browsing setup/ Gaming setup.
-
-Bitmonkey will come by default with the Bitmonkey default profile switched on. This will mean that users setup will be automatically updated to use the latest additions to those profiles and can get the benefits of updates without updating the main extension.
-
-Profiles can be created which combine 'suites' of UserScripts that could cover various use cases
-
-Profiles can be monetized through the system.
-
-SHARED BOOKMARKS/APP STORE
-
-AUTOMATION SETUPS
-
-WORKFLOW -
-
-DESIGN -
 
 
-THEMES - TWITTER THEME OVERRIDES, FACEBOOK ETC. Stored on the blockchain and
+
 
 
 
