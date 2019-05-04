@@ -222,13 +222,13 @@ export default {
         },
       });
     },
-    onUploadBitcoin(remove) {
+    onUploadBitcoin(uploadBitcoin) {
       sendMessage({
-        cmd: 'UploadScriptInfo',
+        cmd: 'UploadScriptBitcoin',
         data: {
           id: this.script.props.id,
           config: {
-            doUpload: upload ? 1 : 0,
+            doUpload: uploadBitcoin ? 1 : 0,
           },
         },
       });

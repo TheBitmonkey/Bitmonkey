@@ -92,6 +92,10 @@ const commands = {
     return uploadScript(id)
     .then(() => { sync.sync(); });
   },
+  UploadScriptBitcoin(id) {
+    return uploadScriptBitcoin(id)
+    .then(() => { sync.sync(); });
+  },
   GetData(clear) {
     return (clear ? checkRemove() : Promise.resolve())
     .then(getData)
@@ -315,5 +319,3 @@ function setIcon(isApplied) {
   });
 }
 setIcon(getOption('isApplied'));
-
-const datapay = require('datapay');
