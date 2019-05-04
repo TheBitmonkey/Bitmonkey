@@ -9,9 +9,24 @@ Bitmonkey
 
 Bitmonkey is a Browser Extension that aims to provide a gateway between the Metanet & the Internet. It is only a proof of concept at present. The current extension has been built and test on the Chrome browser but the underlying technology should be portable to the other mainstream Browsers without a tremendous amount of work.
 
-Please add the extension to your Chrome Browser and then go to Twitter to test out the examples which we have developed to show you the power of Bitmonkey..
+This is a proof of concept and some of what is discussed below does not exist yet.... To Install and test the concept follow the steps below.
+
+### Step 1: 
+
+Please add the extension to your Chrome Browser. 
 
 [Install the Bitmonkey Chrome Extension](https://chrome.google.com/webstore/detail/bitmonkey/lmbggmpkoffpdaipfpgoflcfnendmmec)
+
+### Step 2:
+
+Install our test scripts by clicking the links below and confirm the installation. (In the future the extension will come pre-loaded with scripts..talked about below.)
+
+[Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
+
+
+### Step 3:
+
+Visit Twitter to test out the examples which we have developed to show you the power of Bitmonkey..
 
 
 
