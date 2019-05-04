@@ -22,15 +22,17 @@ Example Applications
 ##### TipperBot
 Twitter Profile Tipper
 ![Tip Roger](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/tip-roger.png)
+
+
 Donations
 
 Github - Tipping / Messaging System.
-Agent tip bot.
+
+Agent tip bot. Currently we have not implemented the backend tipping system agent to manage the whole process. Possible candidates include:
 
 http://pipe.cash/
-
 https://github.com/Pipe-Cash/
-
+Tokenized Agents - To be released.
 
 ##### Metalens Support
 Metalens support
@@ -39,30 +41,24 @@ Metalens support
 
 ![Metalens Twitter 2](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/metalens-twitter-2.png)
 
+Bitmonkey wants to move away from the iframe integration of metalens by incorporating the metalens comments into the actual website.
 
-##### Store this page forever buttons
-ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet.
-
-
-
-
-### Youtube - Live Streaming and Donations
+##### Youtube - Live Streaming and Donations - Future Idea
 
 Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform - Live Chat Earning
 
 
-### Adding Metanet Functionality to the Internet
+### Store this page forever buttons
+ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet. Unfortunately this is not possible yet as these systems do not yet have the ability to be triggered externally via this type of plug in. We will discuss this with the developers of these applications in the coming months.
+
 
 ### Increased Productivity
 
+Userscripts have been used for year to increase productivity and automating routine tasks. The possibilities to rapidly expand the userbase of Bitcoin through creating systems which help them increase productivity.
+
 ### Interoperability
 
-
-
-
-
-
-
+Nearly all systems these days have a browser based frontend. By creating Application specific Scripts that have passed certain security checks will allow for developers to create new on-ramps between existing software and future applications that will live on the metanet.
 
 The Bitmonkey Repository of Userscripts
 ---
@@ -87,6 +83,20 @@ Bitmonkey Apps
 ---
 
 Extending the idea of userscripts to also having collections of userscripts which would form an App or Suite of tools for a particular Metanet service/application.
+
+UserScripts
+-----
+Userscripts will be uploaded into the Bitcoin blockchain within the Extension directly. When uploading a Userscript it will have associated metadata and a strict naming convention.
+
+A special Planaria node will be created to help organize the Userscripts with these 'tags' so that users can easily browse through the collection of scripts which they may like to add. Language Tags are necessary.
+
+Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers. A Whitelist system will be integrated at the start during Stage 1, which may be changed to a Blacklist structure when the Project matures.
+
+##### Example Tags:
+
+Twitter Tipper Buttons (Adds buttons for tipper within twitter) --> Dependency TippermainApp - General TipperApp functionality
+
+Twitter Tipper Theme Script (A unique styling for the tipper button) --> Dependency Twitter Tipper Buttons
 
 
 Profiles and Syncing:
@@ -159,7 +169,7 @@ Monkey see, monkey do.
 
 Bitmonkey is a Dev Environment
 ---
-Developers can develop their code directly within the Bitmonkey Extension. When finished they will be able to upload their code to the blockchain from within the App. Developers will be able to upload encrypted files if they prefer.
+Developers can develop their code directly within the Bitmonkey Extension. When finished they will be able to upload their code to the blockchain from within the App (not yet). Developers will be able to upload encrypted files if they prefer so that only they or those they choose can decrypt.
 
 Developers will be able to publish their Userscripts to be available on the Bitmonkey Marketplace to be used by others.
 
@@ -207,26 +217,6 @@ https://github.com/BitcoinFiles/AUTHOR_IDENTITY_PROTOCOL
 https://github.com/rohenaz/MAP
 
 https://medium.com/@roger.taylor/thoughts-on-identity-2e262e8771d5
-
-
-UserScripts
------
-Userscripts will be uploaded into the Bitcoin blockchain within the Extension directly. When uploading a Userscript it will have associated metadata and a strict naming convention.
-
-A special Planaria node will be created to help organize the Userscripts with these 'tags' so that users can easily browse through the collection of scripts which they may like to add. Language Tags are necessary.
-
-Some scripts can have dependencies on other Userscripts and will need to be loaded after them. Updates can be managed through this system too. Developers public keys will be used to authenticate developers. A Whitelist system will be integrated at the start during Stage 1, which may be changed to a Blacklist structure when the Project matures.
-
-Example Tags:
-
-Twitter Tipper Buttons (Adds buttons for tipper within twitter) --> Dependency TippermainApp - General TipperApp functionality
-
-Twitter Tipper Theme Script (A unique styling for the tipper button) --> Dependency Twitter Tipper Buttons
-
-
-
-
-
 
 
 
