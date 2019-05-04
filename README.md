@@ -7,7 +7,31 @@ Bitmonkey
 ![Bitmonkey](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/bitmonkey-fangs-wide.png)
 
 
-Bitmonkey aims to provide a gateway between the Metanet & the Internet by adapting the Greasemonkey model of userscripts support for browsers and integrating it with the Bitcom schema. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
+Bitmonkey is a Browser Extension that aims to provide a gateway between the Metanet & the Internet. It is only a proof of concept at present. The current extension has been built and test on the Chrome browser but the underlying technology should be portable to the other mainstream Browsers without a tremendous amount of work.
+
+This is a proof of concept and some of what is discussed below does not exist yet.... To Install and test the concept follow the steps below.
+
+### Step 1: 
+
+Please add the extension to your Chrome Browser. 
+
+[Install the Bitmonkey Chrome Extension](https://chrome.google.com/webstore/detail/bitmonkey/lmbggmpkoffpdaipfpgoflcfnendmmec)
+
+### Step 2:
+
+Install our test scripts by clicking the links below and confirm the installation. (In the future the extension will come pre-loaded with scripts..talked about below.)
+
+[Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
+
+*Warning:* This will send money to Bitmonkey not to the profile visible.
+
+### Step 3:
+
+Visit Twitter to test out the examples which we have developed to show you the power of Bitmonkey..
+
+
+
+Bitmonkey is a fork of Violentmonkey which utilises the Greasemonkey model of userscripts. Bitmonkey takes this concept and extends its functionality by integrating it with Bitcoin. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
 
 Bitmonkey will allow Metanetters to redesign the current internet in our image. From added functionality and interoperability to theming and modding of sites. The Bitmonkey model should allow for decentralized development and coordination in creating this vision.
 
