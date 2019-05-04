@@ -12,10 +12,22 @@ Bitmonkey will allow Metanetters to redesign the current internet in our image. 
 
 Change the way you think about UI
 ---
+Web Interfaces for Systems are ubiquitous today. By cleverly utilizing the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
+
+
 
 
 Uses & Benefits
 -----
+
+### Twitter
+Twitter Profile Tipper
+Metalens support
+ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet.
+
+### Youtube
+
+Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner.
 
 
 Adding Functionality
@@ -44,20 +56,44 @@ Donations
 
 Github - Tipping / Messaging System.
 
+Tipper Bot integration into Social media Platforms.
 
-The Technology
+
+
+
+Bitmonkey Pro
+
+A Pro version can be created for Enterprise Client Systems.
+
+Bitmonkey Plumbing:
+
+
+
+Immutably secure - If the script is safe it will be so always because that transaction cannot be changed.
+
+
+Metanet Integration
 -----
 
-### Metanet Integration
+Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
 
-##### Installed Libraries
+### Installed Libraries
 Datapay - https://github.com/unwriter/datapay
 Moneybutton
 Databutton
 Metalens
 
+### Added Content Policy Security to Headers
 
-##### Redirects of b:// c:// links
+Bitmonkey adds moneybutton.com and metalens.allaboard.com to the Content Policy of all headers sent to the browser for all websites. This allows for Integration of the Moneybutton and Metalens iframes on all websites once the Extension is installed.
+
+https://www.w3.org/TR/CSP/#framework-directive-source-list
+
+Chrome:
+https://developer.chrome.com/extensions/contentSecurityPolicy
+
+
+### Redirects of b:// c:// links
 
 Bico Media
 
@@ -103,6 +139,17 @@ https://github.com/OpenUserJS/OpenUserJS.org/wiki/Frequently-Asked-Questions
 
 Metadata Block
 https://sourceforge.net/p/greasemonkey/wiki/Metadata_Block/
+
+https://greasyfork.org/en
+
+https://tampermonkey.net/documentation.php
+
+
+https://wiki.greasespot.net/Metadata_Block
+
+
+https://tampermonkey.net/faq.php
+
 
 Login and Identity
 ---
@@ -187,94 +234,6 @@ https://github.com/Pipe-Cash/
 
 
 
-Bitmonkey Pro
-
-A Pro version can be created for Enterprise Client Systems.
-
-
-Bitmonkey Plumbing:
-
-Web Interfaces for Systems are ubiquitous today. By cleverly utilising the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
-
-
-
-
-
-
-
-Content Policy Security
-
-https://www.w3.org/TR/CSP/#framework-directive-source-list
-
-Chrome:
-https://developer.chrome.com/extensions/contentSecurityPolicy
-
-Local Files:
-
-https://stackoverflow.com/questions/37017192/content-security-policy-directive-script-src-self-blob-filesystem-chrome-e
-
-
-https://stackoverflow.com/questions/13883610/does-greasemonkey-allow-loading-local-javascript-via-require
-
-
-
-Have moneybutton and databutton datapay cashport available and ready to push into a page, early.
-
-Need to @require them in script to access.
-
-
-https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts
-
-https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#WebExtension_APIs
-
-https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#Communicating_with_background_scripts
-
-
-
-Javascript Insertbefore….
-
-https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-
-https://stackoverflow.com/questions/5882768/how-to-append-a-childnode-to-a-specific-position
-
-
-
-DOM Manipulation:
-
-http://xahlee.info/js/js_get_elements.html
-
-
-Run at Document Start - Stripping Bitstagram Code.
-
-https://userscripts-mirror.org/scripts/show/125936
-
-
-UserScripts Information.
-
-
-
-Userscript Locations.
-
-https://greasyfork.org/en
-
-
-Disabled by default.
-
-
-
-
-https://tampermonkey.net/documentation.php
-
-
-https://wiki.greasespot.net/Metadata_Block
-
-
-https://tampermonkey.net/faq.php
-
-
-
-Immutably secure - If the script is safe it will be so always because that transaction cannot be changed.
-
 
 Tentative Roadmap
 ---
@@ -300,11 +259,11 @@ Profiles and Syncing:
 -----
 By natively storing the users profile on the blockchain (encrypted or not) users can sync there Bitmonkey setup natively across multiple browsers and computers. Users can share profile setups and even switch between different setups for different use cases. ie - A preferred Dev Environment as opposed to browsing setup/ Gaming setup.
 
-Bitmonkey will come by default with the Bitmonkey default profile switched on. Hopefully we will have an unwriter, moneybutton profiles enabled by default too. This will mean that users setup will be automatically updated to use the latest additions to those profiles and can get the benefits of updates without updating the main extension.
+Bitmonkey will come by default with the Bitmonkey default profile switched on. This will mean that users setup will be automatically updated to use the latest additions to those profiles and can get the benefits of updates without updating the main extension.
 
 Profiles can be created which combine 'suites' of UserScripts that could cover various use cases
 
-Profiles can be monitized through the system.
+Profiles can be monetized through the system.
 
 SHARED BOOKMARKS/APP STORE
 
@@ -317,27 +276,6 @@ DESIGN -
 
 THEMES - TWITTER THEME OVERRIDES, FACEBOOK ETC. Stored on the blockchain and
 
-App support:
-BITCOM ONLINE -
-
-BOOKMARKS:
-
-B://, C:// & D:// Support
------
-Add support for b:// c:// and d:// native support within Bitmonkey. Users will be able to choose hosting suppliers within the settings page.
-
-Add some nice userscripts which are already available.
-
-Integrate metalens support natively within Bitmonkey
-
-Possible Ideas for Userscripts
------
-Tipper Bot integration into Social media Platforms.
-
-Etched Buttons within Social Media platforms for speed of use. Could also be tied into a chatbot to let the user know their post has been etched...forever.
-
-
-Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
 
 
 Development
@@ -357,3 +295,5 @@ Build
 ``` sh
 $ yarn build
 ```
+
+You will need to download scripts to install into your extension as the online Bitcoin hosted repo is yet to be built.
