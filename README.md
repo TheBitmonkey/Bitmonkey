@@ -4,7 +4,7 @@ Bitmonkey
 =============
 
 
-![Bitmonkey](https://raw.githubusercontent.com/TheBitmonkey/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
+![Bitmonkey](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/bitmonkey-fangs-wide.png)
 
 
 Bitmonkey aims to provide a gateway between the Metanet & the Internet by adapting the Greasemonkey model of userscripts support for browsers and integrating it with the Bitcom schema. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
@@ -21,7 +21,7 @@ Example Applications
 
 ##### TipperBot
 Twitter Profile Tipper
-![Tip Roger](https://raw.githubusercontent.com/TheBitmonkey/Bitmonkey/master/src/resources/svg/tip-roger.png)
+![Tip Roger](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/tip-roger.png)
 Donations
 
 Github - Tipping / Messaging System.
@@ -35,9 +35,9 @@ https://github.com/Pipe-Cash/
 ##### Metalens Support
 Metalens support
 
-![Metalens Twitter](https://raw.githubusercontent.com/TheBitmonkey/Bitmonkey/master/src/resources/svg/metalens-twitter.png)
+![Metalens Twitter](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/metalens-twitter.png)
 
-![Metalens Twitter 2](https://raw.githubusercontent.com/TheBitmonkey/Bitmonkey/master/src/resources/svg/metalens-twitter-2.png)
+![Metalens Twitter 2](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/metalens-twitter-2.png)
 
 
 ##### Store this page forever buttons
