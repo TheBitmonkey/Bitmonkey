@@ -3,17 +3,63 @@ Bitmonkey
 =============
 
 
-!Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
-*Note: This does not work yet..
+[!Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
+
 
 Bitmonkey aims to provide a gateway between the Metanet & the Internet by adapting the Greasemonkey model of userscripts support for browsers and integrating it with the Bitcom schema. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
 
 Bitmonkey will allow Metanetters to redesign the current internet in our image. From added functionality and interoperability to theming and modding of sites. The Bitmonkey model should allow for decentralized development and coordination in creating this vision.
 
 
-Change the way you think about UI
+Change the way you think about UI and Application Design
 ---
 Web Interfaces for Systems are ubiquitous today. By cleverly utilizing the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
+
+Example Applications
+-----
+
+##### TipperBot
+Twitter Profile Tipper
+[!Tip Roger](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/tip-roger.png)
+Donations
+
+Github - Tipping / Messaging System.
+Agent tip bot.
+
+http://pipe.cash/
+
+https://github.com/Pipe-Cash/
+
+
+##### Metalens Support
+Metalens support
+
+[!Metalens Twitter](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/metalens-twitter.png)
+
+[!Metalens Twitter 2](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/metalens-twitter-2.png)
+
+
+##### Store this page forever buttons
+ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet.
+
+
+
+
+### Youtube - Live Streaming and Donations
+
+Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform - Live Chat Earning
+
+
+### Adding Metanet Functionality to the Internet
+
+### Increased Productivity
+
+### Interoperability
+
+
+
+
+
 
 
 
@@ -36,6 +82,12 @@ https://c.bitdb.network/
 https://docs.planaria.network/#/api?id=_5-file-serve-api
 
 
+Bitmonkey Apps
+---
+
+Extending the idea of userscripts to also having collections of userscripts which would form an App or Suite of tools for a particular Metanet service/application.
+
+
 Profiles and Syncing:
 -----
 By natively storing the users profile on the blockchain (encrypted or not) users can sync there Bitmonkey setup natively across multiple browsers and computers. Users can share profile setups and even switch between different setups for different use cases. ie - A preferred Dev Environment as opposed to browsing setup/ Gaming setup.
@@ -44,21 +96,12 @@ Bitmonkey will come by default with the Bitmonkey default profile switched on. T
 
 Profiles can be created which combine 'suites' of UserScripts that could cover various use cases
 
-Profiles can be monetized through the system.
+Profiles can be monetized through the system too.
 
 
 Bitmonkey Metanet Integration
 -----
 
-
-### Installed Libraries
-
-> Some commonly used Bitcoin libraries come pre Installed with Bitmonkey. Scripts can reference the locally stored version of the following libraries.
-
-Datapay - https://github.com/unwriter/datapay
-Moneybutton
-Databutton
-Metalens
 
 ### Added Content Policy Security to Headers
 
@@ -132,37 +175,6 @@ Bitmonkey for Enterprise Clients
 Because each Userscript release will be downloaded via link which is the SHA256 of that file contents (Unwriters c:// protocol). Enterprise clients can be assured of the content and intent of a certain userscript. External Security firms will be able to verify the security of that script and attest to it via the Bitcoin network itself. This way a script file can be assessed by a professional team for security vulnerabilities. The Bitmonkey Extension will test this hash before installing the Script using the js-sha256 lbrary, which has been integrated into the extension.
 
 
-Uses & Benefits
------
-
-### Twitter
-Twitter Profile Tipper
-Metalens support
-ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet.
-
-Agent tip bot.
-
-http://pipe.cash/
-
-https://github.com/Pipe-Cash/
-
-
-### Youtube - Live Streaming and Donations
-
-Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform - Live Chat Earning
-
-
-### Adding Functionality
-
-### Increased Productivity
-
-### Interoperability
-
-Donations
-
-Github - Tipping / Messaging System.
-
-Tipper Bot integration into Social media Platforms.
 
 
 ### The Browser Extension
