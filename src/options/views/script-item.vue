@@ -78,9 +78,11 @@
           </a>
         </tooltip>
         <div class="script-message" v-text="script.message"></div>
+        <tooltip :content="uploadMsg" align="start">
         <span class="btn-ghost" @click="onUploadBitcoin(1)">
-          <icon name="trash"></icon>
+          <icon name="upload"></icon>
         </span>
+        </tooltip>
       </div>
       <tooltip :content="i18n('buttonRemove')" align="end">
         <span class="btn-ghost" @click="onRemove(1)">
@@ -161,6 +163,9 @@ export default {
     },
     description() {
       return this.script.custom.description || getLocaleString(this.script.meta, 'description');
+    },
+    uploadMsg() {
+      return "Upload to Bitcoin";
     },
     lastUpdated() {
       const { props } = this.script;
