@@ -16,11 +16,52 @@ Change the way you think about UI
 Web Interfaces for Systems are ubiquitous today. By cleverly utilizing the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
 
 
+The Bitmonkey Repository of Userscripts
+---
+
+Script release files are c:// files
+
+https://c.bitdb.network/
+
+https://docs.planaria.network/#/api?id=_5-file-serve-api
+
+
+
+Business Plan
+---
+
+#### On-Boarding
+
+> ##### Stage 1: Metaneters
+> The easiest people to get on-board will be current users of the Metanet. These people consist of mainly developers. It is hoped that the early Userscripts will help them to integrate their own products into the Bitmonkey system. This will help with Bug testing and the future direction of the project.
+
+> ##### Stage 2: The Deplorables
+> The second market that needs to be focused on is the deplatforming which is happening throughout the current Internet. This is a potentially large percentage of the population of many countries who are being forcibly removed from the Internet. Content creators on various platforms are looking for solutions to generate Income. These content creators have huge audiences.
+> Also by Integrating the Bitmonkey Tipperbot into various Social media platforms amounst other product developed by different developers we should be able to make the onboarding process smooth.
+
+> ##### Stage 3: Developers
+>  There are already thousands of developers that have created Userscripts.
+
+> ##### Stage 4: Enterprise Clients
+> Creating userscripts/profiles to help Business specific integration of
+
+#### How do we make money?
+We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the bitmonkey address to their scripts.
+
+We will take a % of the price paid for downloading paid for scripts.
+
+#### What is our philosophy?
+
+Monkey see, monkey do.
+
+
 Bitmonkey a Dev Environment
 ---
-Developerrs can develop their code directly within the Bitmonkey Extension. When finished they will be able to upload their code to the blockchain from within the App. Developers will be able to upload encrypted files if they prefer.
+Developers can develop their code directly within the Bitmonkey Extension. When finished they will be able to upload their code to the blockchain from within the App. Developers will be able to upload encrypted files if they prefer.
 
 Developers will be able to publish their Userscripts to be available on the Bitmonkey Marketplace to be used by others.
+
+At present the Interface is more suited to developers. In the next Iteration of the project we will make the Extension more focused on the end user.
 
 Developers get paid
 ---
@@ -30,8 +71,7 @@ Because Bitmonkey is integrated into Bitcoin it will be easy for Developers of U
 Bitmonkey for Enterprise Clients
 ---
 
-Because each Userscript release will be downloaded via link which is the SHA256 of that file contents (Unwriters c:// protocol). Enterprise clients can be assured of the content and intent of a certain userscript. External Security firms will be able to verify the security of that script and attest to it via the Bitcoin network itself. This way a script file can be assessed by a professional team for security vulnerabilities. The Bitmonkey Extension will test this hash before installing the Script using the js-sha256 lbrary.
-
+Because each Userscript release will be downloaded via link which is the SHA256 of that file contents (Unwriters c:// protocol). Enterprise clients can be assured of the content and intent of a certain userscript. External Security firms will be able to verify the security of that script and attest to it via the Bitcoin network itself. This way a script file can be assessed by a professional team for security vulnerabilities. The Bitmonkey Extension will test this hash before installing the Script using the js-sha256 lbrary, which has been integrated into the extension.
 
 
 Uses & Benefits
@@ -42,33 +82,29 @@ Twitter Profile Tipper
 Metalens support
 ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet.
 
+Agent tip bot.
+
+http://pipe.cash/
+
+https://github.com/Pipe-Cash/
+
+
 ### Youtube - Live Streaming and Donations
 
 Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform - Live Chat Earning
 
 
-Adding Functionality
+### Adding Functionality
 
-Increased Productivity
+### Increased Productivity
 
-Reduce Learning Curve
-
-Interoperability
-
-Reduce Friction
-
-Inspiration for Devs
-
-On-Boarding
-
-
+### Interoperability
 
 Donations
 
 Github - Tipping / Messaging System.
 
 Tipper Bot integration into Social media Platforms.
-
 
 
 Bitmonkey Metanet Integration
@@ -79,6 +115,9 @@ Bitmonkey Metanet Integration
 Review system for userscripts hosted on Bitcoin, also flagging of malicious code by trusted devs/users.
 
 ### Installed Libraries
+
+> Some commonly used Bitcoin libraries come pre Installed with Bitmonkey. Scripts can reference the locally stored version of the following libraries.
+
 Datapay - https://github.com/unwriter/datapay
 Moneybutton
 Databutton
@@ -152,7 +191,7 @@ https://wiki.greasespot.net/Metadata_Block
 https://tampermonkey.net/faq.php
 
 
-Login and Identity
+Login, Profiles and Identity
 ---
 At present it is too early to integrate an Identity system as there are many in development. A unified solution is not yet available.
 
@@ -171,53 +210,6 @@ https://github.com/BitcoinFiles/AUTHOR_IDENTITY_PROTOCOL
 https://github.com/rohenaz/MAP
 
 https://medium.com/@roger.taylor/thoughts-on-identity-2e262e8771d5
-
-
-
-
-Scripts:
-
-Twitter...
-
-https://stackoverflow.com/questions/28194122/how-to-execute-a-greasemonkey-script-on-every-infinite-scrolling-event-in-a-twit
-
-
-
-
-
-
-
-
-Script release files are c:// files
-
-https://c.bitdb.network/
-
-
-
-https://docs.planaria.network/#/api?id=_5-file-serve-api
-
-
-
-
-
-
-Business Plan
-
-How do we make money?
-
-
-What is our philosophy?
-
-
-What is our model or terms and conditions?
-
-
-Agent tip bot.
-
-http://pipe.cash/
-
-https://github.com/Pipe-Cash/
-
 
 
 
