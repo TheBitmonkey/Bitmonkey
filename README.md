@@ -3,7 +3,7 @@ Bitmonkey
 =============
 
 
-[!Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
+![Bitmonkey](https://raw.githubusercontent.com/Musicious/Bitmonkey/master/src/resources/svg/bitmonkey-fangs-wide.png)
 
 
 Bitmonkey aims to provide a gateway between the Metanet & the Internet by adapting the Greasemonkey model of userscripts support for browsers and integrating it with the Bitcom schema. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
