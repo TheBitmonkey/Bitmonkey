@@ -229,16 +229,6 @@ function decodeBody(obj) {
     }
   }
 
-var url = new URL(details.url);
-if(url.pathname === "/search" || url.pathname === "/") {
-  var search = url.searchParams.get("q");
-  if(search) {
-    var search = search.toLowerCase();
-    const hash = search.substring(4);
-    var isMetanet = url.hostname.split(/\./).slice(-2).join('.');
-  //  if(isMetanet) alert(isMetanet);  // chrome.tabs.update(tabId, {"url": `https://bico.media/${hash}`});
-      }
-}
 
 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -263,8 +253,8 @@ if(url.pathname === "/search" || url.pathname === "/") {
     );
   }
 
-  var hosts = 'https://d1j5o6e2vipffp.cloudfront.net';
-  var iframeHosts = 'https://metalens.allaboard.cash/ https://www.moneybutton.com/ ';
+  var hosts = 'https://immortalsv.com/ ';
+  var iframeHosts = 'https://immortalsv.com/ https://metalens.allaboard.cash/ https://www.moneybutton.com/ ';
 
   browser.webRequest.onHeadersReceived.addListener(function(details) {
     for (var i = 0; i < details.responseHeaders.length; i++) {

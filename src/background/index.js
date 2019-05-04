@@ -88,6 +88,10 @@ const commands = {
     return removeScript(id)
     .then(() => { sync.sync(); });
   },
+  UploadScript(id) {
+    return uploadScript(id)
+    .then(() => { sync.sync(); });
+  },
   GetData(clear) {
     return (clear ? checkRemove() : Promise.resolve())
     .then(getData)

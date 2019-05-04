@@ -78,6 +78,9 @@
           </a>
         </tooltip>
         <div class="script-message" v-text="script.message"></div>
+        <span class="btn-ghost" @click="onUploadBitcoin(1)">
+          <icon name="trash"></icon>
+        </span>
       </div>
       <tooltip :content="i18n('buttonRemove')" align="end">
         <span class="btn-ghost" @click="onRemove(1)">
@@ -210,6 +213,17 @@ export default {
           id: this.script.props.id,
           config: {
             removed: remove ? 1 : 0,
+          },
+        },
+      });
+    },
+    onUploadBitcoin(remove) {
+      sendMessage({
+        cmd: 'UploadScriptInfo',
+        data: {
+          id: this.script.props.id,
+          config: {
+            doUpload: upload ? 1 : 0,
           },
         },
       });
