@@ -181,6 +181,9 @@ https://bit.planaria.network/#/
 On-Boarding
 ---
 
+We intend on integrating an internal wallet to work with various 3rd Parties. Helping people 'Top up' their balance. We will push people towards the best on ramp for them based on their location. Relayx, Moneybutton, Handcash and Centbee are all working hard to solve the on ramp problems and we would like to smoothly integrate our platform to work with all systems.
+
+
 > ##### Stage 1: Metaneters
 > The easiest people to get on-board will be current users of the Metanet. These people consist of mainly developers. It is hoped that the early Userscripts will help them to integrate their own products into the Bitmonkey system. This will help with Bug testing and the future direction of the project. Each Developer that Integrates their service on top of Bitmonkey will add their own version of On-boarding and use cases.
 
@@ -198,6 +201,8 @@ On-Boarding
 We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the Bitmonkey address to their scripts. Scripts that do that will gain preferential treatment in our own online catalog of 'Apps'
 
 We will take a % of the price paid for downloading paid for scripts.
+
+We intend to give a revenue share to the data providers which the user chooses to download Information from Bitcoin. So for example if you tip somebody on Twitter using our tipper app, then a smal fee will be shared with that users selected data provider such as Bico.media. The idea is to promote professionalism and a business model for data providers helping them to scale. 
 
 #### What is our philosophy?
 
