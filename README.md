@@ -9,7 +9,7 @@ Bitmonkey
 
 Bitmonkey is a Browser Extension that aims to provide a gateway between the Metanet & the Internet. It is only a proof of concept at present. The current extension has been built and test on the Chrome browser but the underlying technology should be portable to the other mainstream Browsers without a tremendous amount of work.
 
-This is a proof of concept and some of what is discussed below does not exist yet.... To Install and test the concept follow the steps below.
+To Install and test the concept follow the steps below.
 
 ### Step 1:
 
