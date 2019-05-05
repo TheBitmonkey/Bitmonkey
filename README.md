@@ -23,13 +23,21 @@ Install our test scripts by clicking the links below and confirm the installatio
 
 [Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
 
-*Warning:* This will send money to Bitmonkey not to the profile visible.
+Visit any profile on Twitter to see the Moneybutton injected into their profile. *Warning:* This will send money to Bitmonkey not to the profile visible.
+
+[Immortal SV Tweet](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/immortalsv-twitter-link.user.js)
+
+This Script will place a small Bitmonkey link to Immortalsv.com at the bottom right of each tweet that contains the prepopulates the form with the link to the tweet you clicked on. The next Integration will skip the need to leave Twitter at all. I will also add etched.page support too.
+
+
 
 ### Step 3:
 
 Visit Twitter to test out the examples which we have developed to show you the power of Bitmonkey..
 
 
+Background
+----
 
 Bitmonkey is a fork of Violentmonkey which utilises the Greasemonkey model of userscripts. Bitmonkey takes this concept and extends its functionality by integrating it with Bitcoin. Allowing for Bitcoin developers to easily add support for their Bitcoin projects into the current Internet without the need for an individual Browser extension to be installed for each application.
 
@@ -39,6 +47,10 @@ Bitmonkey will allow Metanetters to redesign the current internet in our image. 
 Change the way you think about UI and Application Design
 ---
 Web Interfaces for Systems are ubiquitous today. By cleverly utilizing the Userscript schema we will be able to create integrations between existing systems and the Metanet/Bitcoin Systems.
+
+Nearly all software systems today provide a web frontend. The process of integrating systems together is usually handled in the backend or by a laborious process. By utilizing the power of DOM manipulation scripts can be developed professionally that will aid with this process.
+
+
 
 Example Applications
 -----
