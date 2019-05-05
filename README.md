@@ -29,6 +29,9 @@ Visit any profile on Twitter to see the Moneybutton injected into their profile.
 
 This Script will place a small Bitmonkey link to Immortalsv.com at the bottom right of each tweet that contains the prepopulates the form with the link to the tweet you clicked on. The next Integration will skip the need to leave Twitter at all. I will also add etched.page support too.
 
+[Metalens iframe Twitter](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/metalens-iframe-twitter.user.js)
+
+This is not a pretty integration, but works. Work will continue to improve this integration.
 
 
 ### Step 3:
