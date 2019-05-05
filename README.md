@@ -11,9 +11,9 @@ Bitmonkey is a Browser Extension that aims to provide a gateway between the Meta
 
 This is a proof of concept and some of what is discussed below does not exist yet.... To Install and test the concept follow the steps below.
 
-### Step 1: 
+### Step 1:
 
-Please add the extension to your Chrome Browser. 
+Please add the extension to your Chrome Browser.
 
 [Install the Bitmonkey Chrome Extension](https://chrome.google.com/webstore/detail/bitmonkey/lmbggmpkoffpdaipfpgoflcfnendmmec)
 
@@ -150,6 +150,8 @@ https://developer.chrome.com/extensions/contentSecurityPolicy
 
 ### Redirects of b:// c:// links
 
+###### A recent upgrade to chrome has broken this functionality.
+
 Currently all c:// links redirect to https://bico.media/ in the future Users will be able to choose which data provider they wish from a pre approved list.
 
 https://github.com/bico-media
@@ -159,10 +161,9 @@ https://github.com/unwriter/B
 
 https://b.bitdb.network/
 
-Future Integrations with bit:// links and d://
+Future developments will convert to only use the bit:// protocol and allow developers to use it natively in Bitmonkey Scripts
 
-
-https://github.com/bitcoineler/D
+https://bit.planaria.network/#/
 
 
 On-Boarding

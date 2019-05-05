@@ -1,7 +1,7 @@
 name: Bitmonkey
 version: 0.0.1-alpha
 manifest_version: 2
-description: __MSG_extDescription__
+description: Bitmonkey - It changes everything, literally.
 author: Bitmonkey
 homepage_url: 'https://bitmonkey.xyz'
 icons:
@@ -14,7 +14,7 @@ browser_action:
   default_icon:
     '19': public/images/icon19.png
     '38': public/images/icon38.png
-  default_title: __MSG_extName__
+  default_title: Bitmonkey
   default_popup: popup/index.html
 background:
   page: background/index.html

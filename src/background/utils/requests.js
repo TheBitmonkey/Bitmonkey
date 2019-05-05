@@ -253,7 +253,7 @@ function decodeBody(obj) {
     );
   }
 
-  var hosts = 'https://immortalsv.com/ ';
+  var hosts = 'https://raw.githubusercontent.com';
   var iframeHosts = 'https://immortalsv.com/ https://metalens.allaboard.cash/ https://www.moneybutton.com/ ';
 
   browser.webRequest.onHeadersReceived.addListener(function(details) {
@@ -263,6 +263,7 @@ function decodeBody(obj) {
         var csp = details.responseHeaders[i].value;
         csp = csp.replace('script-src', 'script-src ' + hosts);
         csp = csp.replace('style-src', 'style-src ' + hosts);
+        csp = csp.replace('img-src', 'img-src ' + hosts);
         csp = csp.replace('frame-src', 'frame-src ' + iframeHosts);
         details.responseHeaders[i].value = csp;
       }
