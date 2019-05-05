@@ -23,7 +23,7 @@ Install our test scripts by clicking the links below and confirm the installatio
 
 [Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
 
-Visit any profile on Twitter to see the Moneybutton injected into their profile. *Warning:* This will send money to Bitmonkey not to the profile visible.
+Visit any profile on Twitter to see the Moneybutton injected into their profile. *Warning:* This will send money to Bitmonkey not to the profile visible. The button now also send the twitter username of the recipient to the Bitcoin network as an OP Return for a bitcoin agent to process and manage that tip.
 
 [Immortal SV Tweet](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/immortalsv-twitter-link.user.js)
 
@@ -195,7 +195,7 @@ On-Boarding
 > Creating userscripts/profiles to help Business specific integration of their current software and metanet software. This can be handled in a secure fashion due to the protections and security which is inbuilt within the Bitcoin protocol.
 
 #### How do we make money?
-We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the Bitmonkey address to their scripts. Scripts that do that will gain preferential treatment in our own online cataloge of 'Apps'
+We will add a small fee to some of our integrations. We would hope that Bitmonkey script developers also add the Bitmonkey address to their scripts. Scripts that do that will gain preferential treatment in our own online catalog of 'Apps'
 
 We will take a % of the price paid for downloading paid for scripts.
 
@@ -231,7 +231,7 @@ The underlying system will work on browsers with [WebExtensions](https://develop
 
 More details can be found [here](https://bitmonkey.xyz/).
 
-Bitmonkey (will) only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monetize their Userscript creations if they so choose.
+Bitmonkey (will) only accepts scripts which are stored on the Bitcoin Blockchain utilizing the Bitcom schema. It allows developers to monetize their Userscript creations if they so choose. For now they can be loaded from most userscript repositories and github.
 
 
 
@@ -275,3 +275,5 @@ $ yarn build
 ```
 
 You will need to download scripts to install into your extension as the online Bitcoin hosted repo is yet to be built.
+
+Pull Requests would be awesome.
