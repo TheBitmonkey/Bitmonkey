@@ -4,7 +4,7 @@ Bitmonkey
 =============
 
 
-![Bitmonkey](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/bitmonkey-fangs-wide.png)
+![Bitmonkey](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/bitmonkey-fangs-wide1.png)
 
 
 Bitmonkey is a Browser Extension that aims to provide a gateway between the Metanet & the Internet. It is only a proof of concept at present. The current extension has been built and test on the Chrome browser but the underlying technology should be portable to the other mainstream Browsers without a tremendous amount of work.
