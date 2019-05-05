@@ -23,7 +23,7 @@ Install our test scripts by clicking the links below and confirm the installatio
 
 [Twitter Profile Moneybutton](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/profile-twitter-moneybutton.user.js)
 
-Visit any profile on Twitter to see the Moneybutton injected into their profile. *Warning:* This will send money to Bitmonkey not to the profile visible. The button now also send the twitter username of the recipient to the Bitcoin network as an OP Return for a bitcoin agent to process and manage that tip.
+Visit any profile on Twitter to see the Moneybutton injected into their profile. *Warning:* This will send money to Bitmonkey not to the profile visible. The button now also send the twitter username of the recipient to the Bitcoin network as an OP Return for a bitcoin agent to process and manage that tip. Twitter is an annoying site to deal with because of the Ajax calls so it may need a reload the first time you land on the page (Intermittent problem).
 
 [Immortal SV Tweet](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/immortalsv-twitter-link.user.js)
 
@@ -202,7 +202,7 @@ We will add a small fee to some of our integrations. We would hope that Bitmonke
 
 We will take a % of the price paid for downloading paid for scripts.
 
-We intend to give a revenue share to the data providers which the user chooses to download Information from Bitcoin. So for example if you tip somebody on Twitter using our tipper app, then a smal fee will be shared with that users selected data provider such as Bico.media. The idea is to promote professionalism and a business model for data providers helping them to scale. 
+We intend to give a revenue share to the data providers which the user chooses to download Information from Bitcoin. So for example if you tip somebody on Twitter using our tipper app, then a smal fee will be shared with that users selected data provider such as Bico.media. The idea is to promote professionalism and a business model for data providers helping them to scale.
 
 #### What is our philosophy?
 
