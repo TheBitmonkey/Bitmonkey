@@ -292,3 +292,10 @@ $ yarn build
 You will need to download scripts to install into your extension as the online Bitcoin hosted repo is yet to be built.
 
 Pull Requests would be awesome.
+
+
+
+WORK IN PROGRESS
+---
+
+![Notes 1](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/1.jpg)
