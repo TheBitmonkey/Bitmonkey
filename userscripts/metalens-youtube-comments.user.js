@@ -158,25 +158,28 @@ document.getElementById('info').appendChild(metalensYoutube);
 
 }
 
-
-if (document.querySelector('.ProfileHeaderCard-bio')){
-var divMbTwitterProfile = document.createElement('div');
-divMbTwitterProfile.style.cssText = 'width:300px; font-size:.8em; margin-top:15px; min-height:50px;';
-divMbTwitterProfile.setAttribute("id", "bitmonkey-twitter-profile-moneybutton");
-document.querySelector('.ProfileHeaderCard-bio').appendChild(divMbTwitterProfile);
+waitForKeyElements(".metanetcomments", makeMoneybutton);
 
 
+function makeMoneybutton(){
+
+
+var divMbYoutubeMetanet = document.createElement('div');
+divMbYoutubeMetanet.style.cssText = 'width:300px; font-size:.8em; margin-top:15px; min-height:50px;';
+divMbYoutubeMetanet.setAttribute("id", "bitmonkey-youtube-metanet-moneybutton");
+document.querySelector('.metanetcomments').appendChild(divMbYoutubeMetanet);
+
+/*
   var userNameHolder = document.querySelector('.ProfileHeaderCard-screennameLink');
   var userName = userNameHolder.getAttribute('href').slice(1); //.toString('hex');
   console.log("Username:"+ userName);
-
+*/
   var newUserComment = "This is a wonderful video";
-typecommenturl2https://www.youtube.com/watch?v=3KngXMPhxzg&t=210susertestymctestface
 
   databutton.build({
-    data: ["19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut", newUserComment, "text/markdown", "UTF-8", "|", "1PuQa7K62MiKCtssSLKy1kh56WWU7MtUR5SET", "app", "metalens","type", "comment", "url", h , "user" , "Bitmonkey" ],
+    data: ["19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut", newUserComment, "text/markdown", "UTF-8", "|", "1PuQa7K62MiKCtssSLKy1kh56WWU7MtUR5SET", "app", "metalens","type", "comment", "url", h ,"user","Bitmonkey" ],
     button: {
-      $el: "#bitmonkey-twitter-profile-moneybutton",
+      $el: "#bitmonkey-youtube-metanet-moneybutton",
       onPayment: function(p) {
         console.log(p)
       },

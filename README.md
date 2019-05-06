@@ -34,6 +34,11 @@ This Script will place a small Bitmonkey link to Immortalsv.com at the bottom ri
 This is not a pretty integration, but works. Work will continue to improve this integration.
 
 
+[Metalens Youtube Real Integration](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/metalens-youtube-comments.user.js)
+
+https://www.youtube.com/watch?v=nXdkczX5mR0
+
+
 ### Step 3:
 
 Visit Twitter to test out the examples which we have developed to show you the power of Bitmonkey..
