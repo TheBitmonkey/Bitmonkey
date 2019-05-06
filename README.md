@@ -306,4 +306,3 @@ WORK IN PROGRESS
 ![Notes 6](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/6.jpg)
 ![Notes 7](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/7.jpg)
 ![Notes 8](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/8.jpg)
-![Notes 9](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/9.jpg)
