@@ -138,8 +138,8 @@ function doSomeStuff(){
 
 var htmlBlob ='<div id="frame">' +
 '<div class="metalenscontainernew"><div class="items" style="font-size:15px;"></div></div>' +
-      "<h3>Metalens Comments</h3>" +
-        "<div class='comments'></div>" +
+      "<h2>Metalens Comments</h2>" +
+        "<div class='metanetcomments' style='margin-left:50px;'></div>" +
         "</div>"
 
 var metalensYoutube = document.createElement('div');
@@ -159,27 +159,7 @@ document.getElementById('info').appendChild(metalensYoutube);
 
 /////////////////////////////////////////////////////////////////////////
 
-
-  fetch(url, header).then(function(r) {
-    return r.json()
-  }).then(function(r) {
-    let res = r.u.concat(r.c)
-    /*
-    if (!h) {
-      let starred = res.filter(function(item) {
-        return item.h === 'bd913badbbb4e634c45d1b52031a15ebe64cb0d9923de4126dae5cceb3b7aa46'
-      })
-      res = starred.concat(res)
-    }
-    */
-    console.log("Here: " + r)
-    //let res = r.t
-    let modes = ['raw', 'sepia', 'pixel', 'blur']
-    let html = res.map(function(re) {
-      let like = '<a class="like"><img class="like" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVGhD7Zg9a1RREIYH1MJGBSGFipVgo4UkxI/dTYSIH9jYWIudf8HSRrQJktrCHyFoI+oiBISwaheIiIUgi/iBjRae6zM3Ywg6m3t2996cFc4DL3uzd87Me+Z+nD2RTCaTyWRiCXPSCR1ZRL3Qlo98/kJ9jrt83grzcsRCB6IxZez6mH6ZYz1XDy1y3LLQ+ghnZKboyDNUbCU1U7TlQTgtUzZ0gzArezB3v4xxxm4WMU/JM21Dx4Oi19EPr9AgYeCDTtpSlA3gu7de7CBpTcZcsxSjoea95FFqy1duuePohB67MREaeRIMnEU/vaSx0q6rvHOxUg+br2Y0DHzhJUwh7oSu2YqjaMlZL1FK0dA5s1cNwUtekpTiKtwze9UQ/MZLklI0tWf2qiG47yVJKfVk9qoheKy3TxPSdcHsVcME3ntJUooJvDN71RD80EuSUurJ7FXDFbjhJUkp9WT2qinOyV4GfPYSpRDd/6KezF4cTOCmlyyF1IvZiqeYl53M/KWXcDuFh5ViWnaZreGwzUeyNUFrx2yStoQOnCTRN69Ak6Lud61tNsajnIQ+SE6hRqR7ibq3lvwmP8qVWHUL1ihqrHHbHLOy9cKDvY/OPPYK1yFyPwkLst/KNUNxVXZQ7A6dCn8bGFWaCy3pm8/KNA8FL9OxT56hYVQ+W225Ymm3F+7VQxjoesZiRBOW2f0dtnRpsAXvNmYq/9/zR3bL3B15gWoCDJ1HlYuexoSWXLJhkwWv2gMYfOUZV3HudTglBy18MrFX7fN/zOuzwjkLm2zo8m4Mb6wXdP6Rfmen/w9sT7GGVof+LT8pcBUuMoEL9mcmk8lkMjUj8hve1EnqIT28ygAAAABJRU5ErkJggg=="></a>';
-      let tips = ""
-      if (h) {
-        console.log("#1")
+   console.log("#1")
         fetch(comment_url, header).then(function(r) {
           return r.json()
         }).then(function(r) {
@@ -189,10 +169,28 @@ document.getElementById('info').appendChild(metalensYoutube);
             console.log("c = ", item.out[0].s2);
             let content = item.out[0].s2.replace(/b:\/\//g, stub)
             console.log("content = ", content);
-            return "<div class='line' target='_blank'><a class='name' href='https://blockchair.com/bitcoin-sv/address/" + item.in[0].e.a + "' target='_blank'>" + item.out[0].s15 + "</a>&nbsp;" + converter.makeHtml(content) + "<a class='ts' target='_blank' href='https://graph.bitdb.network/#tx/" + item.tx.h + "'>" + (item.blk ? "block " + item.blk.i : "mempool") + "</a></div>"
+            return "<div class='line' target='_blank'><h3>" + item.out[0].s15 + "</h3>&nbsp;<div style='margin-left:130px'>" + converter.makeHtml(content) + "</div> <a class='ts' target='_blank' style='float:right;' href='https://graph.bitdb.network/#tx/" + item.tx.h + "'>" + (item.blk ? "block " + item.blk.i : "mempool") + "</a></div>"
           }).join("")
-          document.querySelector(".item[data-addr='"+re.in[0].e.a+"'] .comments").innerHTML = replies
+          document.querySelector(".metanetcomments").innerHTML = replies
         })
+
+
+  fetch(url, header).then(function(r) {
+    return r.json()
+  }).then(function(r) {
+
+    console.log(r);
+    //let res = r.t
+    let modes = ['raw', 'sepia', 'pixel', 'blur']
+    let html = res.map(function(re) {
+      let like = '<a class="like"><img class="like" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVGhD7Zg9a1RREIYH1MJGBSGFipVgo4UkxI/dTYSIH9jYWIudf8HSRrQJktrCHyFoI+oiBISwaheIiIUgi/iBjRae6zM3Ywg6m3t2996cFc4DL3uzd87Me+Z+nD2RTCaTyWRiCXPSCR1ZRL3Qlo98/kJ9jrt83grzcsRCB6IxZez6mH6ZYz1XDy1y3LLQ+ghnZKboyDNUbCU1U7TlQTgtUzZ0gzArezB3v4xxxm4WMU/JM21Dx4Oi19EPr9AgYeCDTtpSlA3gu7de7CBpTcZcsxSjoea95FFqy1duuePohB67MREaeRIMnEU/vaSx0q6rvHOxUg+br2Y0DHzhJUwh7oSu2YqjaMlZL1FK0dA5s1cNwUtekpTiKtwze9UQ/MZLklI0tWf2qiG47yVJKfVk9qoheKy3TxPSdcHsVcME3ntJUooJvDN71RD80EuSUurJ7FXDFbjhJUkp9WT2qinOyV4GfPYSpRDd/6KezF4cTOCmlyyF1IvZiqeYl53M/KWXcDuFh5ViWnaZreGwzUeyNUFrx2yStoQOnCTRN69Ak6Lud61tNsajnIQ+SE6hRqR7ibq3lvwmP8qVWHUL1ihqrHHbHLOy9cKDvY/OPPYK1yFyPwkLst/KNUNxVXZQ7A6dCn8bGFWaCy3pm8/KNA8FL9OxT56hYVQ+W225Ymm3F+7VQxjoesZiRBOW2f0dtnRpsAXvNmYq/9/zR3bL3B15gWoCDJ1HlYuexoSWXLJhkwWv2gMYfOUZV3HudTglBy18MrFX7fN/zOuzwjkLm2zo8m4Mb6wXdP6Rfmen/w9sT7GGVof+LT8pcBUuMoEL9mcmk8lkMjUj8hve1EnqIT28ygAAAABJRU5ErkJggg=="></a>';
+      let tips = ""
+
+
+
+
+      if (h) {
+
 
 
 
@@ -276,9 +274,9 @@ document.getElementById('info').appendChild(metalensYoutube);
       let stub = "https://lol.bitdb.network/assets/1BvPxwDoz6DR9qedZrKJjWio6Gm7UCPGXU/raw/";
       let content = item.out[0].s2.replace(/b:\/\//g, stub)
       reply.innerHTML = "<a class='name' href='https://blockchair.com/bitcoin-sv/address/" + item.in[0].e.a + "' target='_blank'>" + item.out[0].s15 + "</a>&nbsp;" + converter.makeHtml(content) + "<a class='ts' target='_blank' href='https://graph.bitdb.network/#tx/" + item.tx.h + "'>" + (item.blk ? "block " + item.blk.i : "mempool") + "</a>"
-      document.querySelector(".comments").appendChild(reply)
+      document.querySelector(".metanetcomments").appendChild(reply)
       reply.scrollIntoView(false);
-      document.querySelector(".comments").scrollTop = document.querySelector(".comments").scrollHeight;
+      document.querySelector(".metanetcomments").scrollTop = document.querySelector(".metanetcomments").scrollHeight;
     }
   }
 
