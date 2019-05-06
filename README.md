@@ -36,6 +36,8 @@ This is not a pretty integration, but works. Work will continue to improve this 
 
 [Metalens Youtube Real Integration](https://github.com/TheBitmonkey/Bitmonkey/raw/master/userscripts/metalens-youtube-comments.user.js)
 
+I can't get the make comment to work in time but here is a better integration with metalens integrated into a youtube video page. I just noticed that it might not load on the first visit. So reload the browser if that is the case. The fantastic video below has some metalens comments.
+
 https://www.youtube.com/watch?v=nXdkczX5mR0
 
 
