@@ -299,3 +299,11 @@ WORK IN PROGRESS
 ---
 
 ![Notes 1](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/1.jpg)
+![Notes 2](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/2.jpg)
+![Notes 3](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/3.jpg)
+![Notes 4](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/4.jpg)
+![Notes 5](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/5.jpg)
+![Notes 6](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/6.jpg)
+![Notes 7](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/7.jpg)
+![Notes 8](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/8.jpg)
+![Notes 9](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/wip/9.jpg)
