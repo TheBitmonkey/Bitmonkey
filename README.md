@@ -40,6 +40,7 @@ I can't get the make comment to work in time but here is a better integration wi
 
 https://www.youtube.com/watch?v=nXdkczX5mR0
 
+![Screenshot](https://github.com/TheBitmonkey/Bitmonkey/raw/master/src/resources/svg/metalens-youtube.jpg)
 
 ### Step 3:
 
@@ -89,10 +90,16 @@ Metalens support
 
 Bitmonkey wants to move away from the iframe integration of metalens by incorporating the metalens comments into the actual website.
 
-##### Youtube - Live Streaming and Donations - Future Idea
+##### Youtube -
 
-Adding Metalens functionality into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform - Live Chat Earning
+ Metalens level 2 functionality
 
+
+
+
+
+ eventually integrate this into the live chat of Youtube. With Superchat styling and payments to the channel owner. Live Streamers Cross Platform dlive - Live Chat Earning
+and also OBS support.
 
 ### Store this page forever buttons
 ImmortalSV and Etched.page 1-click support. Add a button for 1-click support to send the current tweet or page to be immortalized on the Metanet. Unfortunately this is not possible yet as these systems do not yet have the ability to be triggered externally via this type of plug in. We will discuss this with the developers of these applications in the coming months.
