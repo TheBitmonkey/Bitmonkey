@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name metalens-youtube-integration
 // @namespace Bitmonkey Scripts
-// @require https://gc.kis.v2.scr.kaspersky-labs.com/1C95596D-A013-404D-9471-9F1A4878594A/main.js
 // @require https://www.moneybutton.com/moneybutton.js
 // @require https://unpkg.com/datapay
 // @require https://unpkg.com/databutton
