@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name metalens-youtube-integration
 // @namespace Bitmonkey Scripts
-// @require https://gc.kis.v2.scr.kaspersky-labs.com/1C95596D-A013-404D-9471-9F1A4878594A/main.js
+// @version 0.0.2
 // @require https://www.moneybutton.com/moneybutton.js
 // @require https://unpkg.com/datapay
 // @require https://unpkg.com/databutton
 // @require https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js
-// @require https://cdn.jsdelivr.net/npm/browser-image-compression@1.0.0/dist/browser-image-compression.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js
 // @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
